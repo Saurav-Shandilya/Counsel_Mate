@@ -1,0 +1,17 @@
+// App.jsx
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import ImpactSection from "./components/ImpactSection";
+import HelpSection from "./components/HelpSection";
+
+export default function App() {
+  return (
+    <div className="min-h-screen flex flex-col bg-black text-white">
+      <Navbar />
+      <Hero />
+      <ImpactSection />
+      <HelpSection />
+    </div>
+  );
+}
